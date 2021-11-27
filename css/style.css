@@ -379,12 +379,11 @@ img{width: 100%;height: auto;}
     padding: 30px 0;
     position: relative;
     padding-bottom: 200px;
-    /* background: rgb(170,190,50); */
-    /* background: linear-gradient(0deg, rgba(170,190,50,1) 0%, rgba(19,89,12,1) 50%, rgba(140,212,38,1) 100%); */
     max-width: 1366px;
     overflow: hidden;
     background: url(../images/bg3.jpg) no-repeat;
     background-size: cover;
+    margin: auto;
 }
 .enter_key{
     position: absolute;
