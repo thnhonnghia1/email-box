@@ -316,8 +316,11 @@ img{width: 100%;height: auto;}
     display: block;
     margin: 0 10px;
 }
-.pic-video{}
-.pic-vide img{width: 100%;display: block;}
+.pic-video{
+    position: relative;
+    width: 97%;
+}
+.pic-video img{width: 100%;display: block;}
 /* VIDEO */
 /* Blink */
 .blink{-webkit-animation-name:blink;-webkit-animation-duration:1s;-webkit-animation-timing-function:linear;-webkit-animation-iteration-count:infinite;-moz-animation-name:blink;-moz-animation-duration:1s;-moz-animation-timing-function:linear;-moz-animation-iteration-count:infinite;animation-name:blink;animation-duration:1s;animation-timing-function:linear;animation-iteration-count:infinite;}
