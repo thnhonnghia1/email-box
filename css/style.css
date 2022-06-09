@@ -44,6 +44,16 @@ body{font-size:14px;top: 0 !important;font-family: 'ro-r';}
 .hidden{display:none;}
 .clear{clear:both;}
 .none{display:none !important;}
+.text-decoration-none {
+    text-decoration: none !important;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+a, input, textarea {
+    outline: none;
+    padding: 0px;
+}
 img {
     max-width: 100%;
     height: auto;
