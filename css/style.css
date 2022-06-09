@@ -44,7 +44,11 @@ body{font-size:14px;top: 0 !important;font-family: 'ro-r';}
 .hidden{display:none;}
 .clear{clear:both;}
 .none{display:none !important;}
-img{width: 100%;height: auto;}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
 /* Header */
 .header{
     /* background: url(../images/pexels-pok-rie-5696907.jpg)no-repeat; */
